@@ -22,11 +22,13 @@ body{
 
 .container {
     background-image: url(/assets/back-inicial.jpg);
+    background-position: center;
     background-size: cover;
     margin: 30px;
     border-radius: 20px;
     padding: 30px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
+    overflow: hidden;
 }
 
 .frase{
@@ -39,24 +41,16 @@ span{
 
 
 
-.imagens{
-    display: flex;
-    margin-top: 1rem;
-}
-
-
-
 .juramento{
     font-family: 'Fredoka One', cursive;
     font-size: 20px;
     color: rgb(151, 133, 94);
     opacity: 0;
     text-decoration: none;
-    margin-left: 14.5rem;
-    margin-top: 24rem;
 }
 .juramento:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(8, 184, 16);
+    background-color: black;
     transition: 0.5s;
     opacity: 1;
 }
@@ -68,11 +62,13 @@ span{
 
 .pergaminho{
     background-image: url(/assets/folhavazia.jpg);
+    background-position: center;
     background-size:cover;
     background-color: rgb(145, 125, 82);
     margin: 30px;
     border-radius: 20px;
     padding: 20px;
+    overflow: hidden;
 }
 
 
@@ -130,19 +126,18 @@ span{
 
 .becodiagonal{
     background-image: url(/assets/beco-diagonal.jpg);
+    background-position: center;
     background-size: cover;
     margin: 30px;
     border-radius: 20px;
     padding: 20px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
+    overflow: hidden;
 }
 
 iframe{
-    margin-left: 43rem;
+    margin-left: 40rem;
     margin-top: 12rem;
     border-radius: 50px;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
 }
-
-
-
