@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url(./assets/back-inicial.jpg);
+    background-position: fixed;
+    background-repeat:no-repeat;
+    background-size: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+h2{
+    color: rgb(177, 160, 85);
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+span{
+    color: green;
+}
+
+
+
+header{
+    display: flex;
+}
+.frase{
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    color: rgb(114, 82, 12);
+    opacity: 0.1;
+    margin-left:17rem;
+    margin-top: 26rem;
+    text-decoration: none;
+}
+.frase:hover{
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+    opacity: 1;
+}
