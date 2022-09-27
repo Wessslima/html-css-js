@@ -14,22 +14,27 @@ ul{
 }
 
 
+
+
 body{
     background: linear-gradient(236.85deg, #313b47 27.26%, #414447 96.03%);
 
 }
 
 
+
 .container {
     background-image: url(/assets/back-inicial.jpg);
     background-position: center;
     background-size: cover;
-    margin: 30px;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
     overflow: hidden;
+    margin: 35px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
 }
+
+
 
 .frase{
     color: rgb(177, 160, 85);
@@ -44,14 +49,14 @@ span{
 .juramento{
     font-family: 'Fredoka One', cursive;
     font-size: 20px;
-    color: rgb(151, 133, 94);
+    color: rgb(173, 172, 169);
     opacity: 0;
     text-decoration: none;
+    margin-left: 5px;
 }
 .juramento:hover{
-    color: rgb(8, 184, 16);
-    background-color: black;
-    transition: 0.5s;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
     opacity: 1;
 }
 
@@ -60,84 +65,80 @@ span{
 
 /* Estilização do mapa.html */
 
-.pergaminho{
+ .pergaminho{
     background-image: url(/assets/folhavazia.jpg);
     background-position: center;
-    background-size:cover;
-    background-color: rgb(145, 125, 82);
-    margin: 30px;
+    background-size: cover;
+    overflow: hidden;
+    margin: 35px;
     border-radius: 20px;
     padding: 20px;
-    overflow: hidden;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
 }
 
 
 .menu{
-    display: flex;
-    font-size: 25px;
-    border-radius: 15px;
-    margin-top: 1rem;
-    margin-left: 2rem;
+    font-size: 22px;
+    padding: 1rem;
+} 
+.back, .exit, .contato{
+    margin-left: 1rem;
 }
-.back, .beco{
-    margin-left: 5rem;
-}
-.back, .beco{
+.back, .beco, .home, .exit, .contato{
     color: black;
 }
-.back:hover, .beco:hover, .home:hover, .exit:hover{
+.back:hover, .beco:hover, .home:hover, .exit:hover, .contato:hover{
     color: red
 }
-.beco{
-    margin-left: 40rem;
-}
-.home, .exit{
-    color: white;
-    background-color: rgb(0, 0, 0);
-    border-radius: 5px;
-    padding: 3px;
-    margin-left: 1rem;
 
+.titulo, .lista{
+    font-size: 25px;
+    padding-left: 1rem;
 }
-
 
 .mapa{
-    height: 400px;
-    border-radius: 50px;
-    margin:30px;
-    margin-left: 13rem;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 3rem;
 }
 
 .a, .b, .c, .d{
     width: 100px;
     height: 100px;
     border-radius: 50px;
-    margin-left: 1rem;
 }
+
 .casas{
     display: flex;
-    margin-left: 25rem;
-    margin-top: 2rem;
+    flex-wrap: wrap;
 }
+
+h2{
+    padding-left: 4rem;
+}
+
+
 
 
 
 /* Estilização do beco.html */
 
 .becodiagonal{
-    background-image: url(/assets/beco-diagonal.jpg);
-    background-position: center;
-    background-size: cover;
-    margin: 30px;
-    border-radius: 20px;
-    padding: 20px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
-    overflow: hidden;
+   background-image: url(/assets/beco-diagonal.jpg);
+   background-position: center;
+   background-size: cover;
+   overflow: hidden;
+   margin: 35px;
+   border-radius: 20px;
+   padding: 20px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
 }
 
+
 iframe{
-    margin-left: 40rem;
-    margin-top: 12rem;
-    border-radius: 50px;
-    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 4);
+   width: 50%;
+   border-radius: 20px;
+   height: 400px;
+   margin-top: 5rem;
+   margin-left: 15rem;
 }
