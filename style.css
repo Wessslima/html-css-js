@@ -1,8 +1,5 @@
 /* Estlização do Index.html */
 
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
-
 * {
     margin: 0;
     padding: 0;
@@ -47,15 +44,13 @@ span{
 
 
 .juramento{
-    font-family: 'Fredoka One', cursive;
-    font-size: 20px;
+    font-size: 25px;
     color: rgb(173, 172, 169);
     opacity: 0;
     text-decoration: none;
-    margin-left: 5px;
 }
 .juramento:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(218, 199, 117);
     transition: 0.3s;
     opacity: 1;
 }
@@ -79,7 +74,8 @@ span{
 
 .menu{
     font-size: 22px;
-    padding: 1rem;
+    text-align: right;
+    margin-right: 2rem;
 } 
 .back, .exit, .contato{
     margin-left: 1rem;
@@ -93,7 +89,8 @@ span{
 
 .titulo, .lista{
     font-size: 25px;
-    padding-left: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
 }
 
 .mapa{
@@ -106,6 +103,7 @@ span{
     width: 100px;
     height: 100px;
     border-radius: 50px;
+    margin: 1rem;
 }
 
 .casas{
@@ -114,10 +112,8 @@ span{
 }
 
 h2{
-    padding-left: 4rem;
+    margin-left: 7rem;
 }
-
-
 
 
 
