@@ -88,9 +88,9 @@ function validaMensagem() {
 
 function enviarForm() {
   if(nomeOk === true && emailOk === true && mensagemOk === true) {
-    alert(nome.value + ', mensagem enviada com sucesso, aguarde um contato dos nossos zumbis por e-mail.')
+    alert(nome.value + ', mensagem enviada com sucesso')
   } else {
-    alert('Por favor, preencha todos os campos corretamente. Nossos zumbis não são videntes e nem gostam de textão')
+    alert('Por favor, preencha todos os campos corretamente')
   }
 
 }
