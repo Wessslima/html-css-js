@@ -75,7 +75,7 @@ function validaEmail2() {
 function validaMensagem() {
   let txtMsg = document.querySelector('#txtMsg')
 
-  if(mensagem.value.length >= 100) {
+  if(mensagem.value.length > 100) {
     txtMsg.innerHTML = 'Mensagem muito grande, digite no máximo 100 caracteres.'
     txtMsg.style.color = '#EE2E31'
     mensagemOk = false
@@ -102,4 +102,3 @@ function mapaZoom() {
 function mapaNormal() {
   mapa.style.aspectRatio = '16/9'
 }
-
